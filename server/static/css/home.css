@@ -1,0 +1,29 @@
+.above-the-line {
+   height: 100vh;
+    opacity: 0.5;
+
+    background-image: url('/static/img/plane-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   -webkit-transition:opacity 2s ease-out;
+   -moz-transition:opacity 2s ease-out;
+   -ms-transition:opacity 2s ease-out;
+   -o-transition:opacity 2s ease-out;
+   transition:opacity 2s ease-out;
+}
+
+
+.above-the-line:hover {
+   opacity: 0.8;
+}
+
+
+.text-color {
+   color: black;
+}
+
+.green {
+   background-color: green;
+}

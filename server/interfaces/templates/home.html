@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block css %}
+    {{ block.super }}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block main %}
+    {{ block.super }}
+    {% comment %} <script src="{{ react_bundle_url }}" /></script> {% endcomment %}
+    <div class="container-fluid text-color">
+        <div class="row above-the-line">
+            <div class="col-md-8 offset-1 mt-5">
+                <h2 class="align-center">I write web applications and I like flying</h2>
+            </div>
+        </div>
+
+        <div class="row green">
+            <div class="col offset-1">
+                <h2 class="text-color align-center">Main Skills</h2>
+                <p>Some things I am currently exploring:</p>
+
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col offset-1">
+                <h2 class="text-color align-center">Main Skills</h2>
+                <p>Some things I am currently exploring:</p>
+
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                            <p>something</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    {{ block.super }}
+    {% comment %} <script src="{{ react_bundle_url }}" /></script> {% endcomment %}
+{% endblock %}
