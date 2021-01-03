@@ -1,5 +1,5 @@
 .above-the-line {
-   height: 100vh;
+   height: 90vh;
     opacity: 0.5;
 
     background-image: url('/static/img/plane-background.jpg');
@@ -25,5 +25,5 @@
 }
 
 .green {
-   background-color: green;
+   background-color: #c2e9e2;
 }

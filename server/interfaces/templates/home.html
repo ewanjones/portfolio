@@ -12,73 +12,77 @@
     <div class="container-fluid text-color">
         <div class="row above-the-line">
             <div class="col-md-8 offset-1 mt-5">
-                <h2 class="align-center">I write web applications and I like flying</h2>
+                <h2 class="align-center">London based developer with a passion for flying</h2>
             </div>
         </div>
 
-        <div class="row green">
-            <div class="col offset-1">
-                <h2 class="text-color align-center">Main Skills</h2>
-                <p>Some things I am currently exploring:</p>
+        <div class="row p-5">
+            <div class="col-md-12">
+                <h2 class="text-color align-center">About Me</h2>
+                <p>
+                    I build web applications with clean, tested and well documented code. I am
+                    passionate about software architecture and always looking for new problems to solve.
+                    I have experience managing multiple large projects, utilising a wide variety of
+                    skills such as UX design, network security and TDD.
+                </p>
+            </div>
 
-                <div class="container">
+            <div class="col-md-4">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>HTML and CSS</li>
+                    <li>Sass</li>
+                    <li>Bash scripting</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <h3>Technologies and skills</h3>
+                <ul>
+                    <li>React, Flask, Django, Webpack, Node.js (express)</li>
+                    <li>Pytest, mock</li>
+                    <li>Domain driven and event sourcing architectures</li>
+                    <li>Mocha, Chai, Karma, Enzyme, Sinon, PhantomJS, Chrome Headless, Jenkins</li>
+                    <li>Docker, Fabric, Apache, Nginx, Gunicorn, Make</li>
+                    <li>HTML email design</li>
+                    <li>Object/graph databases - dynamoDB, neo4j, mongo</li>
+                    <li>Machine learning and data science libraries (python)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row p-5 green">
+            <div class="col">
+                <h2 class="text-color align-center">Skills</h2>
+
+                <div class="container mt-3">
                     <div class="row mt-3">
                         <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
+                            <i class="fas fa-project-diagram display-2"></i>
+                            <h3 class="text-color align-center">Architecture</h3>
+                            <p>I like solving complex problems with software and making the world a better place in the process</p>
                         </div>
                         <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
+                            <i class="fas fa-server display-2"></i>
+                            <h3 class="text-color align-center">Deployment</h3>
+                            <p>I can deploy scalable applications on a range of environments. I have experience with continous integration and deployment</p>
                         </div>
                         <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
+                            <i class="fas fa-chart-bar display-2"></i>
+                            <h3 class="text-color align-center">Analytics</h3>
+                            <p>I back up decision based on data and monitoring</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col offset-1">
-                <h2 class="text-color align-center">Main Skills</h2>
-                <p>Some things I am currently exploring:</p>
-
-                <div class="container">
-                    <div class="row mt-3">
-                        <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                            <p>something</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 {% endblock %}
 
 {% block js %}
     {{ block.super }}
+    <script src="https://kit.fontawesome.com/078f8cccf0.js" crossorigin="anonymous"></script>
     {% comment %} <script src="{{ react_bundle_url }}" /></script> {% endcomment %}
 {% endblock %}
