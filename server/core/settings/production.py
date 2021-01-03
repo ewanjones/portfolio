@@ -4,7 +4,7 @@ from .base import *  # noqa
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["server", "localhost", "178.62.29.196"]
+ALLOWED_HOSTS = ["server", "localhost", "ewanjones.dev", "209.97.183.11"]
 
 # Emails
 
@@ -18,7 +18,7 @@ EMAIL_USE_TLS = True
 
 
 STATIC_URL = "/static/"
-BASE_URL = "http://178.62.29.196"
+BASE_URL = "http://209.97.183.11"
 REACT_BUNDLE_BASE_URL = STATIC_URL + "bundle.js"
 
 TWILIO_SERVICE_NAME = "LOCAL"
